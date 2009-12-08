@@ -9,8 +9,8 @@ WriteMakefile(
     AUTHOR       => 'Leon Brocard <acme@astray.com>',
     LICENSE      => 'perl',
     PREREQ_PM    => {
-        'CPAN::Mini'      => '0',
-        'Net::FriendFeed' => '0',
+        'AnyEvent::FriendFeed::Realtime' => '0',
+        'CPAN::Mini'                     => '0',
     },
 );
 
