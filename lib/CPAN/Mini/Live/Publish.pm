@@ -106,3 +106,31 @@ sub notify {
 1;
 
 __END__
+
+=head1 NAME
+
+CPAN::Mini::Live::Publish - Keep CPAN Mini up to date (backend)
+
+=head1 SYNOPSIS
+
+  # none!
+
+=head1 DESCRIPTION
+
+L<CPAN::Mini::Live::Publish> is the backend code for
+L<CPAN::Mini::Live>.
+
+You should not run this.
+
+=head1 SEE ALSO
+
+L<CPAN::Mini::Live>.
+
+=head1 COPYRIGHT
+
+Copyright (C) 2009, Leon Brocard
+
+=head1 LICENSE
+
+This module is free software; you can redistribute it or modify it
+under the same terms as Perl itself.
