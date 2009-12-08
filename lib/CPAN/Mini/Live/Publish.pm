@@ -5,6 +5,7 @@ use base qw( CPAN::Mini );
 use File::Spec;
 use File::Slurp;
 use Net::FriendFeed;
+our $VERSION = '0.33';
 
 sub mirror_file {
     my ( $self, $path, $skip_if_present, $arg ) = @_;
