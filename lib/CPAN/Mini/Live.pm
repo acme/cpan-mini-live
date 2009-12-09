@@ -78,6 +78,8 @@ indeed. However, to keep the mirror up to date, you must continually
 run minicpan. This module makes minicpan block and listen for live
 updates, thus keeping your minicpan live.
 
+This is an experimental module. Let's see how it works out.
+
 It works by having a backend running L<CPAN::Mini::Live::Publish>
 which publishes file updates and deletions to FriendFeed.
 

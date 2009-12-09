@@ -22,6 +22,8 @@ DESCRIPTION
     minicpan. This module makes minicpan block and listen for live updates,
     thus keeping your minicpan live.
 
+    This is an experimental module. Let's see how it works out.
+
     It works by having a backend running CPAN::Mini::Live::Publish which
     publishes file updates and deletions to FriendFeed.
 
