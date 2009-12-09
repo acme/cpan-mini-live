@@ -83,8 +83,9 @@ This is an experimental module. Let's see how it works out.
 It works by having a backend running L<CPAN::Mini::Live::Publish>
 which publishes file updates and deletions to FriendFeed.
 
-L<CPAN::Mini::Live> listens to these updates using the FriendFeed
-real-time API so your minicpan will be kept up to date in real time.
+L<CPAN::Mini::Live> first make sures it is up to date and then
+listens to these updates using the FriendFeed real-time API so
+your minicpan will be kept up to date in real time.
 
 You have to use the same mirror as the backend code,
 L<http://cpan.cpantesters.org/>.
