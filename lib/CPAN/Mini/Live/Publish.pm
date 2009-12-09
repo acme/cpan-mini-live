@@ -98,7 +98,7 @@ sub notify {
         $friendfeed->validate || die $friendfeed->last_error;
         $self->{_friendfeed} = $friendfeed;
     }
-    warn "$action $uri\n";
+    $self->trace("$action $uri\n");
     $friendfeed->publish_link( $action, $uri )
         || die $friendfeed->last_error;
 }
